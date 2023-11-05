@@ -90,8 +90,18 @@ main {
 }
 
 /* Footer */
-footer {
-  background-color: red;
+#social-networks {
+  text-align: center;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+}
+
+#social-networks i {
+  font-size: 160%;
+  padding: 5%;
+  color: #3a3a3a;
 }
 
 /* Media query: tablets and larger (768px and up) */
@@ -132,7 +142,7 @@ footer {
 
 /* Media query: laptops and larger (992px and up) */
 @media screen and (min-width: 992px) {
-  nav a:hover {
+  #menu a:hover {
     /* underline effect on hovering over nav menu items */
     border-bottom: 1px solid #3a3a3a;
   }
