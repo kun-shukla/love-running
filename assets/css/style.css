@@ -83,7 +83,7 @@ nav {
 
 /* Main content */
 main {
-  background-color: yellow;
+  background-color: #fec8d8;
   /* Make main element take up surplus space to push footer down */
   flex: 1 0 auto;
   margin-top: 47px;
